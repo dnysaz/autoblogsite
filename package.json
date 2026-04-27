@@ -3,20 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "dev": "concurrently \"next dev\" \"npm run scheduler\"",
+    "build": "npm run generate && next build",
+    "start": "concurrently \"next start\" \"npm run scheduler\"",
+    "lint": "next lint",
+    "generate": "node scripts/generate-article.mjs",
+    "scheduler": "node scripts/scheduler.mjs"
   },
   "dependencies": {
+    "dotenv": "^17.4.2",
     "next": "16.2.4",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "react-markdown": "^10.1.0"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "concurrently": "^9.2.1",
     "eslint": "^9",
     "eslint-config-next": "16.2.4",
     "typescript": "^5"
