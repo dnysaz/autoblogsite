@@ -10,6 +10,7 @@ export interface Article {
   coverImage: string;
   coverImageCredit?: string;
   publishedAt: string;
+  isPinned?: boolean;
 }
 
 export function getAllArticleFiles(dirPath: string, arrayOfFiles: string[] = []): string[] {
