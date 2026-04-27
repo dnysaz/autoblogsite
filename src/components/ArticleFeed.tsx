@@ -3,15 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import SafeImage from './SafeImage';
-
-interface Article {
-  title: string;
-  slug: string;
-  category: string;
-  excerpt: string;
-  coverImage: string;
-  publishedAt: string;
-}
+import { Article } from '@/lib/articles';
 
 interface ArticleFeedProps {
   initialArticles: Article[];
