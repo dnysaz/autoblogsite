@@ -250,7 +250,7 @@ button:hover {
 
 .info-page-body {
   font-family: var(--font-serif);
-  font-size: 0.9rem; /* Slightly smaller for info pages */
+  font-size: 1.15rem; /* Matched with article-body */
   line-height: 1.6;
   color: #242424;
 }
@@ -268,7 +268,7 @@ button:hover {
   .reader-container {
     padding: 0 1rem !important; /* Reduced from 1.5rem */
   }
-  .article-body {
+  .article-body, .info-page-body {
     font-size: 1.1rem; /* Even smaller for mobile readability */
   }
 }
