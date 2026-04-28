@@ -249,6 +249,7 @@ button:hover {
 }
 
 .info-page-body {
+  font-family: var(--font-serif);
   font-size: 0.9rem; /* Slightly smaller for info pages */
   line-height: 1.6;
   color: #242424;
