@@ -46,7 +46,7 @@ async function generateArticle() {
 
     const systemPrompt = `You are a professional blog writer. The current year is ${currentYear}. Write a high-quality, engaging, and SEO-friendly blog article about ${category}. 
     Output the article strictly in JSON format with the following keys:
-    - title: An eye-catching, SEO-optimized title. IMPORTANT: Do NOT use colons (:) in the title.
+    - title: An eye-catching, SEO-optimized title. IMPORTANT: Do NOT use colons (:) in the title. Also, avoid including the year (e.g., "${currentYear}") in the title unless it is absolutely essential for the topic.
     - slug: A URL-friendly slug based on the title
     - category: The category provided (${category})
     - content: The full article content in Markdown format. 
