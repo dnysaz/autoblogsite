@@ -16,7 +16,7 @@ export default function About() {
           </Link>
           <h1 className="article-title">About AutoBlogSite.com</h1>
           
-          <div className="article-body">
+          <div className="info-page-body">
             <p>Welcome to <strong>AutoBlogSite.com</strong>, a living experiment in the future of content creation and AI automation.</p>
             
             <h2>What is AutoBlogSite.com?</h2>

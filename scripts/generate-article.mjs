@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API;
-const CATEGORIES_RAW = process.env.ARTICLE_CATEGORIES || "Technology, Artificial Intelligence, Programming";
+const CATEGORIES_RAW = process.env.ARTICLE_CATEGORIES || "AI for Business, Automation Tools, Digital Productivity, Future of Work, Tech Implementation, Modern Development";
 const CATEGORIES = CATEGORIES_RAW.split(',').map(c => c.trim());
 
 async function generateArticle() {

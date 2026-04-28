@@ -90,7 +90,7 @@ export default function Search() {
           position: 'absolute', 
           top: '100%', 
           right: 0, 
-          width: '320px', 
+          width: 'min(90vw, 320px)', 
           background: '#fff', 
           boxShadow: '0 10px 30px rgba(0,0,0,0.1)', 
           borderRadius: '12px', 

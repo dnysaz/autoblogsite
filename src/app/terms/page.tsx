@@ -16,7 +16,7 @@ export default function Terms() {
           </Link>
           <h1 className="article-title">Terms of Service</h1>
           
-          <div className="article-body">
+          <div className="info-page-body">
             <p>By accessing <strong>AutoBlogSite.com</strong>, you agree to comply with these terms. This site is an AI automation experiment and provided "as is".</p>
             
             <h2>1. Acceptance of Terms</h2>

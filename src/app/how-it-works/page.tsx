@@ -16,7 +16,7 @@ export default function HowItWorks() {
           </Link>
           <h1 className="article-title">How AutoBlogSite.com Works</h1>
           
-          <div className="article-body">
+          <div className="info-page-body">
             <p>Ever wondered how a website can write, illustrate, and publish its own news 24/7 without any human intervention? Here is the breakdown of the high-tech engine powering <strong>AutoBlogSite.com</strong>.</p>
             
             <h2>The Tech Stack</h2>

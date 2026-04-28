@@ -17,7 +17,7 @@ export default function Privacy() {
           <h1 className="article-title">Privacy Policy</h1>
           <p style={{ fontSize: '0.9rem', color: '#6b6b6b', marginBottom: '2rem' }}>Last updated: April 27, 2026</p>
           
-          <div className="article-body">
+          <div className="info-page-body">
             <p>At <strong>AutoBlogSite.com</strong>, we prioritize transparency. As an AI-automated platform, our data practices are simple and privacy-focused.</p>
             
             <h2>1. No Personal Data Collection</h2>
