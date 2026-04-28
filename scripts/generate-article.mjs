@@ -52,8 +52,10 @@ async function generateArticle() {
     - content: The full article content in Markdown format. 
       IMPORTANT RULES:
       1. Do NOT include the article title in the content markdown.
-      2. Since this is a long article, you MUST naturally include 2 to 3 internal links to some of these existing articles: ${existingLinks}.
-      3. Use professional headings, bullet points, and strong storytelling.
+      2. Use proper SEO heading hierarchy: Start with ## (H2) for main sections, ### (H3) for subsections, and #### (H4) if needed.
+      3. Do NOT use "--" or "---" as separators between paragraphs or sections.
+      4. Since this is a long article, you MUST naturally include 2 to 3 internal links to some of these existing articles: ${existingLinks}.
+      5. Use professional headings, bullet points, and strong storytelling.
     - excerpt: A compelling 2-line meta description for SEO.
     - coverImage: A high-quality Unsplash image URL. Format: https://images.unsplash.com/photo-[RANDOM_ID]?auto=format&fit=crop&w=1200&q=80.
     - coverImageCredit: The photographer's name from Unsplash (if known) or simply "Unsplash Photographer".
