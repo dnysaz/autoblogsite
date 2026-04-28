@@ -41,7 +41,10 @@ async function generateArticle() {
         existingLinks = shuffled.map(s => `[${s.title}](${s.slug})`).join(', ');
     }
 
-    const systemPrompt = `You are a professional blog writer. Write a high-quality, engaging, and SEO-friendly blog article about ${category}. 
+    const now = new Date();
+    const currentYear = now.getFullYear();
+
+    const systemPrompt = `You are a professional blog writer. The current year is ${currentYear}. Write a high-quality, engaging, and SEO-friendly blog article about ${category}. 
     Output the article strictly in JSON format with the following keys:
     - title: An eye-catching, SEO-optimized title
     - slug: A URL-friendly slug based on the title
