@@ -17,6 +17,7 @@ export default function Header() {
           <nav style={{ display: 'flex', gap: '2rem', fontSize: '0.9rem' }}>
              <Link href="/" className="nav-link">Home</Link>
              <Link href="/about" className="nav-link">About</Link>
+             <Link href="/how-it-works" className="nav-link">How It Works</Link>
              <Link href="/privacy" className="nav-link">Privacy</Link>
           </nav>
           <Search />
@@ -39,7 +40,9 @@ export default function Header() {
         <nav style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', padding: '2rem', alignItems: 'center' }}>
           <Link href="/" className="nav-link" onClick={() => setIsMenuOpen(false)} style={{ fontSize: '1.2rem' }}>Home</Link>
           <Link href="/about" className="nav-link" onClick={() => setIsMenuOpen(false)} style={{ fontSize: '1.2rem' }}>About</Link>
+          <Link href="/how-it-works" className="nav-link" onClick={() => setIsMenuOpen(false)} style={{ fontSize: '1.2rem' }}>How It Works</Link>
           <Link href="/privacy" className="nav-link" onClick={() => setIsMenuOpen(false)} style={{ fontSize: '1.2rem' }}>Privacy</Link>
+          <Link href="/terms" className="nav-link" onClick={() => setIsMenuOpen(false)} style={{ fontSize: '1.2rem' }}>Terms</Link>
           <div style={{ marginTop: '1rem', width: '100%', display: 'flex', justifyContent: 'center' }}>
             <Search />
           </div>
